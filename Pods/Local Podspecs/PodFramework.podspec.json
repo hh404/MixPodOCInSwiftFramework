@@ -1,0 +1,27 @@
+{
+  "name": "PodFramework",
+  "version": "0.0.1",
+  "summary": "A short description of PodFramework.",
+  "description": "this project is simply for testing mixing objc and swift code in a pod lib.",
+  "homepage": "http://www.baidu.com/PodFramework",
+  "license": "MIT1",
+  "authors": {
+    "huangjianwu": "hjw231_2003@sina.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}",
+    "PodFramework/*.{swift,h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "prepare_command": "# 业务Module\nrm -rf PodFramework/Modules\nmkdir PodFramework/Modules\ntouch PodFramework/Modules/module.modulemap\ncat <<-EOF > PodFramework/module.modulemap\nframework module Verify {\n  umbrella header \"PodFrameworkMix.h\"\n  export *\n}\nEOF",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -1,0 +1,4 @@
+framework module Verify {
+  umbrella header "PodFrameworkMix.h"
+  export *
+}

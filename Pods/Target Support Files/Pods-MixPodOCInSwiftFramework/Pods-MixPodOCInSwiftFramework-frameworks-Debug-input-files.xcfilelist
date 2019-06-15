@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MixPodOCInSwiftFramework/Pods-MixPodOCInSwiftFramework-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HansTestSWFramework/HansTestSWFramework.framework
+${BUILT_PRODUCTS_DIR}/NVMDummy/NVMDummy.framework
+${BUILT_PRODUCTS_DIR}/PodFramework/PodFramework.framework

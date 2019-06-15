@@ -1,0 +1,26 @@
+PODS:
+  - HansTestSWFramework (0.0.1)
+  - NVMDummy (1.0.0)
+  - PodFramework (0.0.1)
+
+DEPENDENCIES:
+  - HansTestSWFramework (from `./MyPods/HansTestSWFramework/`)
+  - NVMDummy (from `./MyPods/NVMDummyTestPod/`)
+  - PodFramework (from `./MyPods/PodFramework/`)
+
+EXTERNAL SOURCES:
+  HansTestSWFramework:
+    :path: "./MyPods/HansTestSWFramework/"
+  NVMDummy:
+    :path: "./MyPods/NVMDummyTestPod/"
+  PodFramework:
+    :path: "./MyPods/PodFramework/"
+
+SPEC CHECKSUMS:
+  HansTestSWFramework: c96a67db634efeba82ad5f54397fdf08a6577d87
+  NVMDummy: 5679aab06f50cc3525b373faa53f07719c601605
+  PodFramework: 06657db5aaa94f1bb117bf4befbc6c2140c1126b
+
+PODFILE CHECKSUM: 7137321a93c2203f1b7a9e5f43bcf996f4b1cf68
+
+COCOAPODS: 1.7.1
